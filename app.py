@@ -1,5 +1,4 @@
-import flask
-from flask import Flask, render_template, request
+from Flask import Flask, render_template, request
 import numpy as np
 import tensorflow
 from tensorflow.keras.models import load_model
