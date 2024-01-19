@@ -2,7 +2,6 @@ from Flask import Flask, render_template, request
 import numpy as np
 import tensorflow
 from tensorflow.keras.models import load_model
-from digit_recognition import *
 import os
 
 model= load_model('sudoku_model.h5')
