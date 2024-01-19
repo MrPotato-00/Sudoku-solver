@@ -1,4 +1,3 @@
-$ pip install Flask
 from Flask import Flask, render_template, request
 import numpy as np
 import tensorflow
